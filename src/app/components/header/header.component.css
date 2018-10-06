@@ -1,0 +1,118 @@
+.header-container {
+  background: linear-gradient(to bottom, #f2f2f2 0%,#f2f2f2 50%,#525454 50%,#525454 100%);
+  height: 900px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.title-header-blue, .title-header-green {
+  font-size: 128px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.title-header-blue {
+  color: #025282;
+  margin-top: 2rem;
+}
+
+.title-header-green {
+  font-weight: 500;
+  color: #82c407;
+  margin-top: -3rem;
+}
+
+.apple-led {
+  margin-top: -3rem;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+.apple-led:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+.first-layer {
+  transform: rotate(-5deg);
+  margin-top: 2rem;
+  position: relative;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+.first-layer:hover {
+  -webkit-transform: rotateZ(1deg);
+  -ms-transform: rotateZ(1deg);
+  transform: rotateZ(1deg);
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+.textbox-image {
+  position: absolute;
+  top: 11.5rem;
+  right: -5.5rem;
+  margin-left: 2rem;
+}
+
+.image-text-white {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+}
+
+.image-text-light-blue {
+  color: #4facb6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.opposite-text {
+  color: #82c407;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 2.3rem;
+}
+
+.oppotsite-text-down {
+  color: #dfd7d7;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) {
+  .image-text-white {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .textbox-image {
+    margin-right: 13rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .textbox-image {
+    margin-right: 24rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .image-text-light-blue {
+    width: 71%;
+  }
+}
+
+@media only screen and (max-width: 1179px) {
+  .image-text-light-blue {
+    width: 42%;
+  }
+}
+
