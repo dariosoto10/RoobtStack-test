@@ -1,0 +1,50 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fc4e50;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.card {
+  margin-top: 5rem;
+  width: 35%;
+}
+
+.card-header {
+  text-align: center;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 500;
+  font-size: 18px;
+  color: #555756;
+}
+
+.form-control {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.form-check-label {
+  font-size: 15px;
+  font-family: 'Roboto', 'sans-serif';
+  color: #555756;
+}
+
+.btn-box {
+  text-align: right;
+}
+
+.custom-btn {
+  border-radius: 40px/40px;
+  width: 91px;
+  border: 1px solid #77a5fab3;
+  background-color: #f4f4f4;
+  color: #6f8f9a;
+}
+
+.forgot-password-text {
+  font-family: 'Roboto', 'sans-serif';
+  color: #f4f4f4;
+  font-weight: 500;
+  margin-top: 2rem;
+}
