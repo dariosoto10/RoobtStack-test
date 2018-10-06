@@ -6,17 +6,16 @@ body {
 .overlay-left, .overlay-right {
   background: transparent !important;
 }
-
-.ngx-gallery-arrow-left[_ngcontent-c6] .ngx-gallery-arrow[_ngcontent-c6] {
-  left: -30px !important;
-}
-
 .ngx-gallery-arrow-left:hover {
   color: #00c2ff !important;
 }
 
-.ngx-gallery-arrow-right[_ngcontent-c6] .ngx-gallery-arrow[_ngcontent-c6] {
-  right: -30px !important;
+.ngx-gallery-arrow-left[_ngcontent-c7] .ngx-gallery-arrow[_ngcontent-c7] {
+  left: -20px !important;
+}
+
+.ngx-gallery-arrow-right[_ngcontent-c7] .ngx-gallery-arrow[_ngcontent-c7] {
+  right: -20px !important;
 }
 
 .ngx-gallery-thumbnail {
