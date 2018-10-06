@@ -28,8 +28,6 @@ export class FakeBackendInterceptor implements HttpInterceptor {
             const username = request.body.username;
             const password = request.body.password;
 
-            console.log(username);
-
             if (username === "admin" && password === "admin") {
               let body = {
                 username: username,
