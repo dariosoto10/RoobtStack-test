@@ -8,12 +8,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { NgxGalleryModule } from 'ngx-gallery';
 import 'hammerjs';
 import { BodyComponent } from './components/body/body.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
