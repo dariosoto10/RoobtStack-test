@@ -14,19 +14,19 @@
 
 .card-header {
   text-align: center;
-  font-family: 'Roboto', 'sans-serif';
+  font-family: "Roboto", "sans-serif";
   font-weight: 500;
   font-size: 18px;
   color: #555756;
 }
 
 .form-control {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: "Roboto", "sans-serif";
 }
 
 .form-check-label {
   font-size: 15px;
-  font-family: 'Roboto', 'sans-serif';
+  font-family: "Roboto", "sans-serif";
   color: #555756;
 }
 
@@ -43,8 +43,14 @@
 }
 
 .forgot-password-text {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: "Roboto", "sans-serif";
   color: #f4f4f4;
   font-weight: 500;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 95%;
+  }
 }
