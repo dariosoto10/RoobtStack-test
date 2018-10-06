@@ -10,11 +10,10 @@ body {
   color: #00c2ff !important;
 }
 
-.ngx-gallery-arrow-left[_ngcontent-c7] .ngx-gallery-arrow[_ngcontent-c7] {
+.ngx-gallery-arrow-left[_ngcontent-c8] .ngx-gallery-arrow[_ngcontent-c8] {
   left: -20px !important;
 }
-
-.ngx-gallery-arrow-right[_ngcontent-c7] .ngx-gallery-arrow[_ngcontent-c7] {
+.ngx-gallery-arrow-right[_ngcontent-c8] .ngx-gallery-arrow[_ngcontent-c8] {
   right: -20px !important;
 }
 
